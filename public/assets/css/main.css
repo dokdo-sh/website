@@ -88,12 +88,12 @@ Font-Family 	:	'Open Sans', sans-serif;
 
 ::-moz-selection {
     /* Code for Firefox */
-    background-color: #7b10ff;
+    background-color: #0e66c6;
     color: #fff;
 }
 
 ::selection {
-    background-color: #7b10ff;
+    background-color: #0e66c6;
     color: #fff;
 }
 
@@ -1042,9 +1042,9 @@ th {
 .version-blog .details-body .post-links .prev-post:hover i,
 .version-blog .comment-section .comment .comment-btn:hover,
 .footer-area {
-    background-image: -moz-linear-gradient(110deg, #7b10ff 0%, #974fff 100%);
-    background-image: -webkit-linear-gradient(110deg, #7b10ff 0%, #974fff 100%);
-    background-image: -ms-linear-gradient(110deg, #7b10ff 0%, #974fff 100%);
+    background-image: -moz-linear-gradient(110deg, #0e66c6 0%, #974fff 100%);
+    background-image: -webkit-linear-gradient(110deg, #0e66c6 0%, #974fff 100%);
+    background-image: -ms-linear-gradient(110deg, #0e66c6 0%, #974fff 100%);
 }
 
 .d2-gradient-bg,
@@ -1687,7 +1687,7 @@ th {
 #header #logo h1 a,
 #header #logo h1 a:hover {
     padding-left: 10px;
-    border-left: 4px solid #7b10ff;
+    border-left: 4px solid #0e66c6;
 }
 
 #header #logo .logo-1 {
@@ -1734,7 +1734,7 @@ th {
     top: 100%;
     left: 0;
     z-index: 99;
-    border-top: 2px solid #7b10ff;
+    border-top: 2px solid #0e66c6;
 }
 
 .nav-menu li {
@@ -1813,35 +1813,35 @@ th {
 }
 
 .nav-menu .menu-active a {
-    color: #7b10ff !important;
+    color: #0e66c6 !important;
 }
 
 .nav-menu li>.menu-active {
-    color: #7b10ff !important;
+    color: #0e66c6 !important;
 }
 
 .parent-active>.sf-with-ul {
-    color: #7b10ff;
+    color: #0e66c6;
 }
 
 .parent-active>ul .menu-active {
-    color: #7b10ff !important;
+    color: #0e66c6 !important;
 }
 
 #header.header-scrolled .nav-menu>li .menu-active {
-    color: #7b10ff !important;
+    color: #0e66c6 !important;
 }
 
 #header.header-scrolled .parent-active>a {
-    color: #7b10ff;
+    color: #0e66c6;
 }
 
 #header.header-scrolled .nav-menu>li a:hover {
-    color: #7b10ff !important;
+    color: #0e66c6 !important;
 }
 
 #mobile-nav .nav-menu>li .menu-active {
-    color: #7b10ff !important;
+    color: #0e66c6 !important;
 }
 
 .nav-menu>li {
@@ -1868,7 +1868,7 @@ th {
 }
 
 .nav-menu ul li:hover a {
-    color: #7b10ff;
+    color: #0e66c6;
 }
 
 .nav-menu ul ul {
@@ -1968,11 +1968,11 @@ th {
 }
 
 #header.header-scrolled .menu-has-children a:hover {
-    color: #7b10ff;
+    color: #0e66c6;
 }
 
 #mobile-nav ul .menu-has-children i.fa-chevron-up {
-    color: #7b10ff;
+    color: #0e66c6;
 }
 
 #mobile-nav ul .menu-has-children li a {
@@ -1980,7 +1980,7 @@ th {
 }
 
 #mobile-nav ul .menu-item-active {
-    color: #7b10ff;
+    color: #0e66c6;
 }
 
 #mobile-body-overly {
@@ -2060,7 +2060,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #header2 #logo h1 a,
 #header2 #logo h1 a:hover {
     padding-left: 10px;
-    border-left: 4px solid #7b10ff;
+    border-left: 4px solid #0e66c6;
 }
 
 #header2 #logo .logo-1 {
@@ -2105,7 +2105,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     top: 100%;
     left: 0;
     z-index: 99;
-    border-top: 2px solid #7b10ff;
+    border-top: 2px solid #0e66c6;
 }
 
 .nav-menu li {
@@ -2180,27 +2180,27 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .nav-menu li>.menu-active {
-    color: #7b10ff !important;
+    color: #0e66c6 !important;
 }
 
 .parent-active>.sf-with-ul {
-    color: #7b10ff !important;
+    color: #0e66c6 !important;
 }
 
 .parent-active>ul .menu-active {
-    color: #7b10ff !important;
+    color: #0e66c6 !important;
 }
 
 #header2.header-scrolled .nav-menu>li .menu-active {
-    color: #7b10ff !important;
+    color: #0e66c6 !important;
 }
 
 #header2.header-scrolled .parent-active>a {
-    color: #7b10ff !important;
+    color: #0e66c6 !important;
 }
 
 #header2.header-scrolled .nav-menu>li a:hover {
-    color: #7b10ff !important;
+    color: #0e66c6 !important;
 }
 
 #header2.header-scrolled .nav-menu2>li>a {
@@ -2208,7 +2208,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #mobile-nav .nav-menu>li .menu-active {
-    color: #7b10ff !important;
+    color: #0e66c6 !important;
 }
 
 .nav-menu>li {
@@ -2241,7 +2241,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .nav-menu ul li:hover a {
-    color: #7b10ff;
+    color: #0e66c6;
 }
 
 .nav-menu ul ul {
@@ -2341,11 +2341,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #header2.header-scrolled .menu-has-children a:hover {
-    color: #7b10ff;
+    color: #0e66c6;
 }
 
 #mobile-nav ul .menu-has-children i.fa-chevron-up {
-    color: #7b10ff;
+    color: #0e66c6;
 }
 
 #mobile-nav ul .menu-has-children li a {
@@ -2353,7 +2353,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #mobile-nav ul .menu-item-active {
-    color: #7b10ff;
+    color: #0e66c6;
 }
 
 #mobile-body-overly {
@@ -2433,7 +2433,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #header7 #logo h1 a,
 #header7 #logo h1 a:hover {
     padding-left: 10px;
-    border-left: 4px solid #7b10ff;
+    border-left: 4px solid #0e66c6;
 }
 
 #header7 #logo .logo-1 {
@@ -2478,7 +2478,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     top: 100%;
     left: 0;
     z-index: 99;
-    border-top: 2px solid #7b10ff;
+    border-top: 2px solid #0e66c6;
 }
 
 .nav-menu li {
@@ -2553,27 +2553,27 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .nav-menu li>.menu-active {
-    color: #7b10ff !important;
+    color: #0e66c6 !important;
 }
 
 .parent-active>.sf-with-ul {
-    color: #7b10ff !important;
+    color: #0e66c6 !important;
 }
 
 .parent-active>ul .menu-active {
-    color: #7b10ff !important;
+    color: #0e66c6 !important;
 }
 
 #header7.header-scrolled .nav-menu>li .menu-active {
-    color: #7b10ff !important;
+    color: #0e66c6 !important;
 }
 
 #header7.header-scrolled .parent-active>a {
-    color: #7b10ff !important;
+    color: #0e66c6 !important;
 }
 
 #header7.header-scrolled .nav-menu>li a:hover {
-    color: #7b10ff !important;
+    color: #0e66c6 !important;
 }
 
 #header7.header-scrolled .nav-menu2>li>a {
@@ -2581,7 +2581,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #mobile-nav .nav-menu>li .menu-active {
-    color: #7b10ff !important;
+    color: #0e66c6 !important;
 }
 
 .nav-menu>li {
@@ -2614,7 +2614,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .nav-menu ul li:hover a {
-    color: #7b10ff;
+    color: #0e66c6;
 }
 
 .nav-menu ul ul {
@@ -2714,11 +2714,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #header7.header-scrolled .menu-has-children a:hover {
-    color: #7b10ff;
+    color: #0e66c6;
 }
 
 #mobile-nav ul .menu-has-children i.fa-chevron-up {
-    color: #7b10ff;
+    color: #0e66c6;
 }
 
 #mobile-nav ul .menu-has-children li a {
@@ -2726,7 +2726,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #mobile-nav ul .menu-item-active {
-    color: #7b10ff;
+    color: #0e66c6;
 }
 
 #mobile-body-overly {
@@ -3346,7 +3346,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .version-blog .hero-section-blog-details .content .social-link:hover i {
-    color: #7b10ff;
+    color: #0e66c6;
 }
 
 @media (max-width: 991px) {
@@ -3598,7 +3598,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .single-price:hover {
-    border: 2px solid #7b10ff;
+    border: 2px solid #0e66c6;
 }
 
 @media (max-width: 991px) {
@@ -3866,7 +3866,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .single-feature:hover {
     background: #fff;
-    border: 2px solid #7b10ff;
+    border: 2px solid #0e66c6;
 }
 
 .single-feature:hover .icon span {
@@ -4080,7 +4080,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .single-review:hover .quote-wrap {
-    border: 2px solid #7b10ff;
+    border: 2px solid #0e66c6;
 }
 
 .client-review-section .owl-carousel .owl-item img {
@@ -4255,7 +4255,6 @@ body.mobile-nav-active #mobile-nav-toggle {
     top: 50%;
     left: 10px;
     font-family: 'Linearicons-Free';
-    speak: none;
     font-style: normal;
     font-weight: normal;
     font-variant: normal;
@@ -4328,7 +4327,6 @@ dl.accordion.time-line:before {
     top: 50%;
     left: 0;
     font-family: 'icomoon';
-    speak: none;
     font-style: normal;
     font-weight: bold;
     font-variant: normal;
@@ -4452,7 +4450,7 @@ dl.accordion.time-line:before {
 --------------------------------------------------------------*/
 
 .version1 .single-card:hover .card-title {
-    color: #7b10ff;
+    color: #0e66c6;
 }
 
 .version2 .single-card:hover .card-title {
@@ -4460,11 +4458,11 @@ dl.accordion.time-line:before {
 }
 
 .version1-1 .single-card:hover .card-title {
-    color: #7b10ff;
+    color: #0e66c6;
 }
 
 .version3 .single-card:hover .card-title {
-    color: #7b10ff;
+    color: #0e66c6;
 }
 
 .version4 .single-card:hover .card-title {
@@ -4472,7 +4470,7 @@ dl.accordion.time-line:before {
 }
 
 .version8 .single-card:hover .card-title {
-    color: #7b10ff;
+    color: #0e66c6;
 }
 
 .version9 .single-card:hover .card-title {
@@ -4597,7 +4595,7 @@ dl.accordion.time-line:before {
 }
 
 .version-blog .blog-post .single-card:hover .card-title {
-    color: #7b10ff;
+    color: #0e66c6;
 }
 
 @media (max-width: 991px) {
@@ -4617,7 +4615,7 @@ dl.accordion.time-line:before {
 }
 
 .version-blog .blog-post-list .single-card:hover .card-title {
-    color: #7b10ff;
+    color: #0e66c6;
 }
 
 .version-blog .blog-post-list .single-card .card-btn {
@@ -4714,7 +4712,7 @@ dl.accordion.time-line:before {
 }
 
 .version-blog .recent-news .news-box:hover .news-head {
-    color: #7b10ff;
+    color: #0e66c6;
 }
 
 @media (max-width: 991px) {
@@ -4898,7 +4896,7 @@ dl.accordion.time-line:before {
     background: #fff;
     box-shadow: none;
     outline: none;
-    border: 1px solid #7b10ff;
+    border: 1px solid #0e66c6;
 }
 
 .version-blog .post-comment textarea {
@@ -5086,7 +5084,7 @@ dl.accordion.time-line:before {
 .contact-right .form-control:focus,
 .contact-form-section .form-control:focus {
     background: #fff;
-    border: 1px solid #7b10ff;
+    border: 1px solid #0e66c6;
     box-shadow: none;
     outline: none;
 }
@@ -5166,7 +5164,7 @@ dl.accordion.time-line:before {
     right: 14px;
     font-size: 18px;
     font-weight: 700;
-    color: #7b10ff;
+    color: #0e66c6;
 }
 
 .cross-btn:hover {
@@ -5178,7 +5176,7 @@ dl.accordion.time-line:before {
     position: absolute;
     top: 50%;
     transform: translate(0, -50%);
-    color: #7b10ff;
+    color: #0e66c6;
     background: #fff;
     box-shadow: 0px 10px 30px 0px rgba(135, 170, 218, 0.3);
     font-size: 18px;
