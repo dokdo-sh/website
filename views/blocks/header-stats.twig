@@ -1,0 +1,80 @@
+<header>
+    <div class="container">
+        <div class="row top-bar">
+            <div class="col-12 col-md-10 order-md-2">
+                <div class="header-card">
+                    <span class="corner-border-top"></span>
+                    <div class="row">
+                        <div class="col-12 col-md-2">
+                            <strong>Solarcraft Beta</strong>
+                        </div>
+                        <div class="col-12 col-md-10">
+                            <div class="row">
+                                <div class="col" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="<strong>Eggs:</strong> The amount of eggs available over all servers.">
+                                    <svg class="svg-inline--fa fa-coins fa-w-16 fa-fw" aria-hidden="true" focusable="false" data-prefix="fa" data-icon="coins" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                        <path fill="currentColor"
+                                            d="M0 405.3V448c0 35.3 86 64 192 64s192-28.7 192-64v-42.7C342.7 434.4 267.2 448 192 448S41.3 434.4 0 405.3zM320 128c106 0 192-28.7 192-64S426 0 320 0 128 28.7 128 64s86 64 192 64zM0 300.4V352c0 35.3 86 64 192 64s192-28.7 192-64v-51.6c-41.3 34-116.9 51.6-192 51.6S41.3 334.4 0 300.4zm416 11c57.3-11.1 96-31.7 96-55.4v-42.7c-23.2 16.4-57.3 27.6-96 34.5v63.6zM192 160C86 160 0 195.8 0 240s86 80 192 80 192-35.8 192-80-86-80-192-80zm219.3 56.3c60-10.8 100.7-32 100.7-56.3v-42.7c-35.5 25.1-96.5 38.6-160.7 41.8 29.5 14.3 51.2 33.5 60 57.2z">
+                                        </path>
+                                    </svg>
+                                    <span id='eggcount'>0</span>
+                                </div>
+                                <div class="col" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="<strong>Servers</strong>: Amount of servers online.">
+                                    <svg class="svg-inline--fa fa-fire fa-w-12 fa-fw" aria-hidden="true" focusable="false" data-prefix="fa" data-icon="fire" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg="">
+                                        <path fill="currentColor"
+                                            d="M216 23.86c0-23.8-30.65-32.77-44.15-13.04C48 191.85 224 200 224 288c0 35.63-29.11 64.46-64.85 63.99-35.17-.45-63.15-29.77-63.15-64.94v-85.51c0-21.7-26.47-32.23-41.43-16.5C27.8 213.16 0 261.33 0 320c0 105.87 86.13 192 192 192s192-86.13 192-192c0-170.29-168-193-168-296.14z">
+                                        </path>
+                                    </svg>
+                                    <span id='servercount'>0</span>
+                                </div>
+                                <div class="col" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="<strong>Players Online</strong>: The number of players online">
+                                    <svg class="svg-inline--fa fa-globe fa-w-16 fa-fw" aria-hidden="true" focusable="false" data-prefix="fa" data-icon="globe" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" data-fa-i2svg="">
+                                        <path fill="currentColor"
+                                            d="M336.5 160C322 70.7 287.8 8 248 8s-74 62.7-88.5 152h177zM152 256c0 22.2 1.2 43.5 3.3 64h185.3c2.1-20.5 3.3-41.8 3.3-64s-1.2-43.5-3.3-64H155.3c-2.1 20.5-3.3 41.8-3.3 64zm324.7-96c-28.6-67.9-86.5-120.4-158-141.6 24.4 33.8 41.2 84.7 50 141.6h108zM177.2 18.4C105.8 39.6 47.8 92.1 19.3 160h108c8.7-56.9 25.5-107.8 49.9-141.6zM487.4 192H372.7c2.1 21 3.3 42.5 3.3 64s-1.2 43-3.3 64h114.6c5.5-20.5 8.6-41.8 8.6-64s-3.1-43.5-8.5-64zM120 256c0-21.5 1.2-43 3.3-64H8.6C3.2 212.5 0 233.8 0 256s3.2 43.5 8.6 64h114.6c-2-21-3.2-42.5-3.2-64zm39.5 96c14.5 89.3 48.7 152 88.5 152s74-62.7 88.5-152h-177zm159.3 141.6c71.4-21.2 129.4-73.7 158-141.6h-108c-8.8 56.9-25.6 107.8-50 141.6zM19.3 352c28.6 67.9 86.5 120.4 158 141.6-24.4-33.8-41.2-84.7-50-141.6h-108z">
+                                        </path>
+                                    </svg>
+                                    <span id='playercount'>0</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <span class="corner-border-bottom"></span>
+                </div>
+            </div>
+            <div class="col-6 col-md-1 order-md-1">
+                <div class="header-card">
+                    <span class="corner-border-top"></span> v0.38.0b
+                    <span class="corner-border-bottom"></span>
+                </div>
+            </div>
+            <div class="col-6 col-md-1 order-md-3">
+                <div class="header-card">
+                    <span class="corner-border-top"></span>
+                    <button class="main-menu-toggle collapsed" type="button" data-toggle="collapse" href="#main-menu"><i
+                                        class="fa fa-bars"></i></button>
+                    <span class="corner-border-bottom"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="main-menu" class="collapse megamenu">
+        <div class="container">
+            <div class="menu-card">
+                <div class="row text-center">
+                    <div class="col-6 col-md">
+                        <a href="/" class="headline3">Home</a>
+                    </div>
+                    <div class="col-6 col-md">
+                        <a href="/leaderboard" class="headline3">Leaderboard</a>
+                    </div>
+                    <div class="col-6 col-md">
+                        <a href="https://github.com/solar-network" target="_blank" class="headline3">Visit Github</a>
+                    </div>
+                    <div class="col-6 col-md">
+                        <a href="https://discord.solar.org" target="_blank" class="headline3">Join us on Discord</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <p class="headline-alert text-danger text-center">Server under maintenance</p>
+</header>

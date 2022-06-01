@@ -1,0 +1,67 @@
+{% extends 'layout.twig' %} {% block body %}
+
+<body>
+    {% include './blocks/header-stats.twig' %}
+    <div class="container mt-5" style="margin-bottom:50px;">
+        <div class="text-center">
+            <p class="headline1 mb-0">Solarcraft</p>
+            <h1 class="headline-alert">Leaderboard</h1>
+        </div>
+
+        <div id='leaderboard'>
+            <div class="flexrow " style="margin-bottom:10px;">
+                <div class="flexcol headline1" style="width:200px;">Username</div>
+                <div class="flexcol headline1" style="width:450px;;">Address</div>
+                <div class="flexcol headline1" style="width:170px; text-align:center;">Inventory</div>
+                <div class="flexcol headline1" style="width:170px; text-align:center;">Safe Eggs</div>
+                <div class="flexcol headline1" style="width:170px; text-align:center;">Total Found</div>
+                <div>
+                </div>
+
+                <br /><br />
+            </div>
+            <button id="back-to-top" class="btn btn-highlight" role="button">
+		<span class="fa fa-chevron-up"></span>
+	</button> {% endblock %} {% block javascripts %}
+
+
+            <script>
+                $(document).ready(function() {
+                    var socket = io();
+                    socket.emit('getplayercount', {});
+                    socket.on('showplayercount', function(data) {
+
+                        $("#servercount").html(data.servercount);
+                        $("#playercount").html(data.playercount);
+                        $("#eggcount").html(data.eggcount);
+
+                        for (let i = 0; i < 50; i++) {
+
+                            let item = data.leaderboard[i];
+
+                            if (item) {
+
+                                let html = `<div class="flexrow">
+										<div class="flexcol" style="width:200px">` + item.name + `</div>
+										<div class="flexcol" style="width:450px">` + item.address + `</div>
+										<div class="flexcol" style="width:170px; text-align:center;">` + item.inventoryEggs + `</div>
+										<div class="flexcol" style="width:170px; text-align:center;">` + item.safeEggs + `</div>
+										<div class="flexcol" style="width:170px; text-align:center;">` + item.totalEggs + `</div>
+									<div>`;
+
+
+                                $('#leaderboard').append(html);
+
+                            }
+
+
+
+                        }
+
+
+
+                    });
+                });
+            </script>
+
+            {% endblock %}
