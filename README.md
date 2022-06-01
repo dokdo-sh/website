@@ -1,4 +1,4 @@
-# quest.solar.org
+# dokdo.sh
 
 Requires:
 
@@ -24,5 +24,5 @@ yarn install
 Start the program:
 
 ```
-pm2 start quest-solar.js
+pm2 start dokdo.js
 ```
