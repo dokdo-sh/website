@@ -36,7 +36,7 @@ i18n.expressBind(app, {
     // setup some locales - other locales default to en silently
     locales: ['en', 'kr'],
     // change the cookie name from 'lang' to 'locale'
-    cookieName: 'locale'
+    cookieName: 'lang'
 });
 
 app.use(function(req, res, next) {
