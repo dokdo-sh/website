@@ -5342,3 +5342,11 @@ dl.accordion.time-line:before {
 
 
 /*# sourceMappingURL=main.css.map */
+
+.social-icons-page {
+    color: #974fff !important;
+    display: inline-block;
+    margin-bottom: 5px;
+    font-size: 24px;
+    margin-right: 5px;
+}
