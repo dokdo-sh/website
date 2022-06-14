@@ -27,5 +27,15 @@
 	"First Name": "First Name",
 	"Last Name": "Last Name",
 	"All Rights Reserved": "All Rights Reserved",
-	"Blog": "Blog"
+	"Blog": "Blog",
+	"Dokdo (DKD) Token": "Dokdo (DKD) Token",
+	"DKD is the native token of Dokdo and is used to pay for exchange utilities and services.": "DKD is the native token of Dokdo and is used to pay for exchange utilities and services.",
+	"Click on the button to learn more": "Click on the button to learn more",
+	"Learn more": "Learn more",
+	"Dokdo Exchange": "Dokdo Exchange",
+	"Dokdo is currently in the phase of acquiring Xeggex and its software to provide exchange and wallet services. ": "Dokdo is currently in the phase of acquiring Xeggex and its software to provide exchange and wallet services. ",
+	"Xeggex": "Xeggex",
+	"Dokdo is currently in the phase of acquiring Xeggex and its software to provide crypto exchange and wallet services. ": "Dokdo is currently in the phase of acquiring Xeggex and its software to provide crypto exchange and wallet services. ",
+	"After full acquisition, Xeggex will be rebranded to Dokdo Global and a second exchange will\n                        be developed under Dokdo Korea for Korean users.": "After full acquisition, Xeggex will be rebranded to Dokdo Global and a second exchange will\n                        be developed under Dokdo Korea for Korean users.",
+	"Visit Dokdo Global (Xeggex)": "Visit Dokdo Global (Xeggex)"
 }
