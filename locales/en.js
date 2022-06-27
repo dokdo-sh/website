@@ -39,5 +39,6 @@
 	"After full acquisition, Xeggex will be rebranded to Dokdo Global and a second exchange will\n                        be developed under Dokdo Korea for Korean users.": "After full acquisition, Xeggex will be rebranded to Dokdo Global and a second exchange will\n                        be developed under Dokdo Korea for Korean users.",
 	"Visit Dokdo Global (Xeggex)": "Visit Dokdo Global (Xeggex)",
 	"The exchange native token known as XGX was replaced by the DKD token. Click on the button below to learn more. ": "The exchange native token known as XGX was replaced by the DKD token. Click on the button below to learn more. ",
-	"DKD Token": "DKD Token"
+	"DKD Token": "DKD Token",
+	"Visit\n                            Dokdo Global (Xeggex)": "Visit\n                            Dokdo Global (Xeggex)"
 }
