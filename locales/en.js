@@ -37,5 +37,7 @@
 	"Xeggex": "Xeggex",
 	"Dokdo is currently in the phase of acquiring Xeggex and its software to provide crypto exchange and wallet services. ": "Dokdo is currently in the phase of acquiring Xeggex and its software to provide crypto exchange and wallet services. ",
 	"After full acquisition, Xeggex will be rebranded to Dokdo Global and a second exchange will\n                        be developed under Dokdo Korea for Korean users.": "After full acquisition, Xeggex will be rebranded to Dokdo Global and a second exchange will\n                        be developed under Dokdo Korea for Korean users.",
-	"Visit Dokdo Global (Xeggex)": "Visit Dokdo Global (Xeggex)"
+	"Visit Dokdo Global (Xeggex)": "Visit Dokdo Global (Xeggex)",
+	"The exchange native token known as XGX was replaced by the DKD token. Click on the button below to learn more. ": "The exchange native token known as XGX was replaced by the DKD token. Click on the button below to learn more. ",
+	"DKD Token": "DKD Token"
 }
